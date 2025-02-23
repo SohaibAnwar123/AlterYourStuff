@@ -1,0 +1,43 @@
+
+
+$primaryFont: 'Crimson Text';
+$secondaryFont: 'DM Sans", sans-serif';
+$primaryColor: #AF0005;
+$secondaryColor: #1F2322;
+$secondaryColor__: #E6E6E6;
+$blackColor: #000;
+$whiteColor: #fff;
+
+.primaryFont{
+    font-family: $primaryFont;
+}
+.primaryColor{
+    color: $primaryColor;
+}
+.primaryColorBg{
+    background-color: $primaryColor;
+}
+.secondaryColor{
+    color: $secondaryColor;
+}
+.secondaryColorBg{
+    background-color: $secondaryColor;
+}
+.secondaryColor__{
+    color: $secondaryColor__;
+}
+.secondaryColorBg__{
+    background-color: $secondaryColor__;
+}
+.blackColor{
+    color: $blackColor;
+}
+.blackColorBg{
+    background-color: $blackColor;
+}
+.whiteColor{
+    color: $whiteColor;
+}
+.whiteColorBg{
+    background-color: $whiteColor;
+}

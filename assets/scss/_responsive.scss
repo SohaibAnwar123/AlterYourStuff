@@ -1,0 +1,308 @@
+@media screen and (max-width: 1680px) {
+    .aboutWrap .aboutContent {
+        color: #fff;
+        padding-left: 10%;
+        padding-top: 10%;
+    }
+
+    .heroSlick {
+        height: calc(100vh - 136px);
+    }
+
+    .customBtn {
+        padding: 18px 30px;
+    }
+    .chevron {
+        width: 16px;
+        height: 16px;
+    }
+
+    .contactRow .customBtn {
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+
+}
+
+@media screen and (max-width: 1570px) {
+    .heroSlick {
+        height: calc(100vh - 121px);
+    }
+    .serviceBox p {
+        line-height: 1.3;
+    }
+    .serviceBox h3 {
+        margin-top: 24px;
+        margin-bottom: 10px;
+    }
+    .serviceBox {
+        min-height: 460px;
+        padding: 30px 16px;
+    }
+    .contactRow p {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+
+}
+
+@media screen and (max-width: 1370px) {
+    .titleDot {
+        font-size: 16px;
+    }
+    .serviceBox .serviceImg {
+        padding: 20px;
+    }
+    .contactRow p {
+        font-size: 22px;
+    }
+    .serviceBox {
+        min-height: 445px;
+    }
+    .servicesWrap .slick-arrow {
+        height: 50px;
+        width: 50px;
+    }
+    .heroSlick {
+        height: calc(100vh - 105px);
+    }
+
+    .customBtn {
+        padding: 14px 20px;
+        border-width: 1px;
+        font-size: 16px;
+    }
+    .chevron.__top {
+        transform: rotate(45deg) translate(2px, 2px);
+    }
+    
+    .chevron {
+        width: 13px;
+        height: 13px;
+    }
+    .chevron.__left {
+        transform: rotate(45deg) translate(1px, -1px);
+    }
+    .chevron.__right {
+        transform: rotate(45deg) translate(-2px, 2px);
+    }
+    
+}
+
+// Ipad pro 
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    .servicesWrap .slick-arrow.slick-prev-service {
+        left: 0px;
+    }
+    .servicesWrap .slick-arrow.slick-next-service {
+        right: 0px;
+    }
+    .heroSlick .heroImg img {
+        object-fit: cover;
+    }
+    .contactRow .customBtn {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .aboutWrap .aboutContent {
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    .statWrap .statBox img{
+        width: 50px;
+    }
+    .statWrap .statBox {
+        padding: 0 16px;
+    }
+    .testimonailWrap {
+        grid-template-columns: 1fr;
+    }
+}
+
+//  ipad 
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    .contactRow p {
+        font-size: 20px;
+    }
+    .mapSec p {
+        width: 100%;
+    }
+    .statWrap .statBox:last-child {
+        border-right: 2px dashed #E6E6E6;
+    }
+    .aboutWrap .aboutContent p {
+        margin: 20px 0;
+    }
+    .aboutWrap .aboutInner {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .aboutWrap .aboutImg img {
+        position: unset;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .aboutWrap .aboutImg {
+   grid-row: 2;
+    }
+    .aboutWrap .aboutContent {
+        padding-left: 0;
+        padding-top: 50px;
+    }
+    .statWrap .d-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px 0;
+    }
+    .servicesWrap h2 {
+        margin-bottom: 30px;
+    }
+    .serviceBox h3 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .testimonailWrap .tesimonialBox {
+        margin-top: 20px;
+        gap: 10px;
+    }
+    .contactRow .contactRowInner {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px 0;
+    }
+    .contactRow .customBtn {
+        grid-column: 1 / 3;
+        margin: auto;
+    }
+    .heroSlick .contentBlock {
+        width: 80%;
+    }
+    .navWrap .navbar-brand img {
+        object-fit: contain;
+    }
+}
+
+//  mobile 
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+    .scrollTop {
+        width: 40px;
+        height: 40px;
+        right: 20px;
+        bottom: 20px;
+    }
+    .navWrap .customBtn {
+        font-size: 13px;
+        padding: 12px 15px;
+    }
+    .heroWrap .slick-arrow .chevron {
+        width: 15px;
+        height: 15px;
+    }
+    .heroWrap .slick-arrow.slick-prev-hero {
+        left: 10px;
+    }
+    .heroWrap .slick-arrow.slick-next-hero {
+        right: 10px;
+    }
+    .heroSlick .contentBlock {
+        width: 90%;
+        gap: 10px;
+    }
+    .aboutWrap .aboutContent p {
+        margin: 15px 0;
+    }
+    .statWrap .d-grid {
+        grid-template-columns: 1fr;
+        gap: 16px 0;
+    }
+    .statWrap .statBox h3 {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .statWrap .statBox {
+      padding-bottom: 16px;
+      padding-right: 0;
+      padding-left: 0;
+        border-right: 0px;
+        border-bottom: 2px dashed #E6E6E6;
+        text-align: center;
+    }
+    .statWrap .statBox:first-child {
+        padding-right: 0;
+    }
+    .contactRow .contactRowInner {
+        grid-template-columns: 1fr;
+        gap: 16px 0;
+        text-align: center;
+    }
+    .contactRow p {
+        line-height: 1.5;
+        grid-column: 1 / 3;
+    }
+    .contactRow a.contactItem p {
+        grid-column: 2 / 3;
+    }
+    .contactRow a.contactItem .icon {
+        width: 60px;
+        height: 60px;
+    }
+    .contactRow a.contactItem {
+        gap: 0px;
+        width: fit-content;
+        margin-left: auto;margin-right: auto;
+        text-align: start;
+    }
+    .navWrap .navbar {
+        padding: 3px 0;
+    }
+    .testimonailWrap .testimonialContent {
+        padding: 40px 0px;
+    }
+    .testimonailWrap .tesimonialBox .profileIcon {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .aboutWrap .aboutContent {
+        text-align: center;
+    }
+    .aboutWrap .aboutContent .titleDot {
+        align-items: center;
+    }
+    .aboutWrap .customBtn {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .statWrap .statBox:last-child {
+        border-right: 0;
+        padding-bottom: 0;
+    }
+    .statWrap .statBox p {
+margin-bottom: 0;
+    }
+    .servicesWrap .slick-arrow {
+        height: 40px;
+        width: 40px;
+    }
+    .contactRow p {
+        font-size: 18px;
+    }
+    .testimonailWrap .slick-arrow {
+        height: 30px;
+        width: 30px;
+    }
+    .testimonailWrap .slick-arrow .chevron {
+        height: 12px;
+        width: 12px;
+    }
+    .testimonailWrap .tesimonialBox {
+        padding: 0 34px;
+    }
+ 
+}
